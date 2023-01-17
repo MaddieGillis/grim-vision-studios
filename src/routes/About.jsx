@@ -12,7 +12,7 @@ const About = () => {
             role: 'Chief Operating Officer',
             social1: 'https://twitter.com/BryceMontyGVS',
             // social2: 'https://www.instagram.com',
-            desc: 'I have always had a passion for creating games, hiking, cars, and food.'
+            desc: `My name is Bryce Montgomery. I have always had a passion for creating games, as well as creating my own studio. Currently enrolled at Full Sails University, for my BA in Game Design. I love Gaming, Designing, going on hikes, cars, and food. I have 3 years of experience in Graphic Imaging, 3 years of Game Design, and 1 year of video editing experience. I am currently the Chief Operating Office, and Hiring Manager @Grim Vision Studios. `
         },
         {
             name: 'Andrew DeRose',
