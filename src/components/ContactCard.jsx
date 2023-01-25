@@ -5,6 +5,7 @@ import { GitHub, Instagram, Twitter } from "@mui/icons-material";
 import { Paper, Typography, Box, Stack, IconButton, Skeleton, Divider } from "@mui/material";
 
 const ContactCard = ({
+    staffPic,
     name,
     imagePath,
     role,
