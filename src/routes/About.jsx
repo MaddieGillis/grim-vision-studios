@@ -3,11 +3,12 @@ import { Container } from "@mui/system";
 import HeroBanner from "../components/HeroBanner";
 import ContactCard from "../components/ContactCard"
 import Footer from "../components/Footer";
+//import bryceImg from ".";
 
 const About = () => {
-
     const developers = [
         {
+            //imagePath: bryceImg,
             name: 'Bryce Montgomery',
             role: 'Chief Operating Officer',
             social1: 'https://twitter.com/BryceMontyGVS',
@@ -48,19 +49,6 @@ const About = () => {
             games, stream to twitch, and do various crafts. I have a BA in Psychology and worked in
             that field for a while before eventually going back to school to get a degree in animation.
             I'm the animation team lead as well as an assistant manager with Grim Vision Studios.`
-        },
-        {
-            name: 'Trang Le',
-            role: 'Creative',
-            social1: 'https://www.linkedin.com/in/trang-le-12b4ab24a',
-            //social2: '',
-            desc: `My name is Trang Le
-
-            I am from Hanoi, Vietnam.
-            I graduated from short film classes at TPD Cinema Talent Training and Development Center such as Acting Class, Scripting Class, and Film class. Meanwhile, I participated in supporting small independent film crews in various positions from actress, make-up artist, and costume, to producer assistant. “Phim ngan Cuoc Goi 2021” (published on Youtube) was the first short film I made with my classmates under the position of lead scriptwriter and producer.
-            
-            Currently, I am studying Creative Writing BFA at Full Sail University. I am happy to contribute my capability to help Grim Studio thrive with the goals it has set.
-            `
         },
         {
             name: 'Michael Balthazar',
@@ -203,7 +191,7 @@ const About = () => {
                     spacing={5}
                     sx={{ marginTop: 1 }}
                 >
-                    {developers.map(({ name, role, social1, social2, desc }) => (
+                    {developers.map(({imagePath, name, role, social1, social2, desc }) => (
                         <Grid
                             item
                             xl={3}
@@ -212,6 +200,7 @@ const About = () => {
                             xs={12}
                         >
                             <ContactCard
+                                imagePath={imagePath}
                                 name={name}
                                 role={role}
                                 desc={desc}

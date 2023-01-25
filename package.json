@@ -1,7 +1,7 @@
 {
   "name": "grim-site",
   "version": "0.1.0",
-  "homepage": "https://parkerfreestone.github.io/grim-vision-studios",
+  "homepage": "https://maddiegillis.github.io/grim-vision-studios",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
