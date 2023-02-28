@@ -61,12 +61,12 @@ const Home = () => {
         <Grid container spacing={8}>
           <Grid item xs={12} lg={7}>
             <Typography variant="h2" component="h1" fontWeight="bold">
-              This is where a <span style={gradientText.root}>very nice</span>{" "}
-              slogan will go.
+            Uncover the <span style={gradientText.root}>dark secrets</span>{" "}of ancient folklore.
+              
             </Typography>
             <Typography variant="body1" sx={{ mt: 1 }}>
-              Lorem Ipsum dolar sit amet, lorem dolar sit amet ipsum dolar maset
-              siotpum atep cartof. Amet ipsum dolar maset siotpum atep cartof.
+            Welcome to Grim Vision Studios, an independent game development company that is committed to producing the next generation of high-quality games. 
+            We invite you to check out our website, meet our team, learn about our projects, and join us on our exciting quest to create the next big thing in the gaming world.
             </Typography>
             <Stack direction="row" gap={2}>
               <Button
