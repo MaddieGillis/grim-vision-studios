@@ -147,20 +147,24 @@ const Footer = () => {
                             xs={12}
                         >
                             <Stack spacing={1}>
-                                <Button
+                            <a href="mailto:officialgrimvision@gmail.com">
+                                 <Button
                                     variant='contained'
                                     color='error'
                                     endIcon={<PhoneAndroidRounded />}
-                                >
-                                    Contact Us
+                                    >
+                                Contact Us
                                 </Button>
+                            </a>
+                                <a href="https://www.patreon.com/grimvisionstudios">
                                 <Button
-                                    variant='contained'
+                                     variant='contained'
                                     color='error'
                                     endIcon={<VolunteerActivism />}
                                 >
-                                    Support Us
+                                Support Us
                                 </Button>
+                                </a>
                             </Stack>
                         </Grid>
                     </Grid>
@@ -175,7 +179,7 @@ const Footer = () => {
             >
                 <Container maxWidth='xl'>
                     <Typography style={textStyles.link}>
-                        All rights reserved © 2022 Grim Vision Studios
+                        All rights reserved © 2023 Grim Vision Studios
                     </Typography>
                 </Container>
             </Container>
