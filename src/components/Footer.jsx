@@ -162,7 +162,7 @@ const Footer = () => {
                                     color='error'
                                     endIcon={<VolunteerActivism />}
                                 >
-                                Support Us
+                                Patreon
                                 </Button>
                                 </a>
                             </Stack>

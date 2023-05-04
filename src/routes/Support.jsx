@@ -1,12 +1,25 @@
+import { Link } from 'react-router-dom';
 import HeroBanner from "../components/HeroBanner";
+import {
+  ArrowRightAltRounded,
+  BugReportRounded,
+  Computer,
+  PeopleAltRounded,
+  WaterfallChartRounded,
+  CurrencyRuble,
+  EmojiEmotions
+} from "@mui/icons-material";
 import {
     Grid,
     Container,
     Typography,
     Button,
     Stack,
-    IconButton
+    IconButton,
+    
 } from "@mui/material"
+
+import { IconCard } from "../components/IconCard";
 
 const Support = () => {
     const gradientText = {
@@ -37,22 +50,56 @@ const Support = () => {
       };
     return (
         <>
-            <HeroBanner
-                heading='Support Us'
+            {/* <HeroBanner
+                heading='Help Bring Our Vision to Life'
             // text='Example text for page heading...'
             // height='long'
             // image={'./home-page.jpg'}
-            />
+            /> */}
 
-<Typography variant="h2" component="h1" fontWeight="bold">
-Help Bring Our Vision to Life
+<Container maxWidth="xxl" sx={{ bgcolor: "#f7f7f7", py: 10 }}>
+        <Container maxWidth="xl">
+          <Typography
+            variant="h3"
+            component="h2"
+            fontWeight="bold"
+            sx={{ mb: 3 }}
+          >
+            Help bring our <span style={gradientText.root}>vision</span> to life
+          </Typography>
+          <Typography variant="body1" sx={{ mt: 1 }}>
+          We are a small independent studio made up of students and recent graduates hoping to make an amazing horror experience. If you would like to support us please head on over to our Patreon.
+
+If you would like to make a one time donation, please head over to our Paypal.
+
+Any support whether monetary or just following the game is appreciated!!
+<Typography variant="body1" sx={{ mt: 1 }}>--Grim Vision Studio Team ❤️</Typography>
               
             </Typography>
+          <Grid container spacing={2}>
+          <Grid item xs={12} md={3} sx={{ height: "-webkit-fill-available" }}>
+             <IconCard
+                icon={<CurrencyRuble color="error" />}
+                text="For regular updates, cool BTS images, and much more head on over to our Patreon"
+                heading="Patreon"
+            >
+          <Link to="https://www.patreon.com/grimvisionstudios" target="_blank" rel="noopener noreferrer">
+             Patreon
+          </Link>
+          </IconCard>
+          </Grid>
+            <Grid item xs={12} md={3}>
+              <IconCard
+                icon={<EmojiEmotions color="error" />}
+                text="For a one time donation please head over to our paypal"
+                heading="Paypal"
+                //url=""
+              />
+            </Grid>
+          </Grid>
+        </Container>
+      </Container>
 
-<Typography variant="body1" sx={{ mt: 1 }}>
-            Welcome to Grim Vision Studios, an independent game development company that is committed to producing the next generation of high-quality games. 
-            We invite you to check out our website, meet our team, learn about our projects, and join us on our exciting quest to create the next big thing in the gaming world.
-            </Typography>
         </>
     
     );
