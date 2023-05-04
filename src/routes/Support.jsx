@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from 'react-router-dom';
 import HeroBanner from "../components/HeroBanner";
 import {
@@ -19,7 +20,8 @@ import {
     
 } from "@mui/material"
 
-import { IconCard } from "../components/IconCard";
+//import { IconCard } from "../components/IconCard";
+import { SupportCard } from "../components/SupportCard";
 
 const Support = () => {
     const gradientText = {
@@ -78,22 +80,23 @@ Any support whether monetary or just following the game is appreciated!!
             </Typography>
           <Grid container spacing={2}>
           <Grid item xs={12} md={3} sx={{ height: "-webkit-fill-available" }}>
-             <IconCard
+             <SupportCard
                 icon={<CurrencyRuble color="error" />}
                 text="For regular updates, cool BTS images, and much more head on over to our Patreon"
                 heading="Patreon"
+                url="https://www.patreon.com/grimvisionstudios"
             >
-          <Link to="https://www.patreon.com/grimvisionstudios" target="_blank" rel="noopener noreferrer">
+          {/* <Link href="https://www.patreon.com/grimvisionstudios" target="_blank" rel="noopener noreferrer">
              Patreon
-          </Link>
-          </IconCard>
+          </Link> */}
+          </SupportCard>
           </Grid>
             <Grid item xs={12} md={3}>
-              <IconCard
+              <SupportCard
                 icon={<EmojiEmotions color="error" />}
                 text="For a one time donation please head over to our paypal"
                 heading="Paypal"
-                //url=""
+                url="https://www.paypal.com/donate/?hosted_button_id=M93F9E36PMMDC"
               />
             </Grid>
           </Grid>
