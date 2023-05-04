@@ -66,7 +66,7 @@ const Footer = () => {
                                 variant="body1"
                                 style={textStyles.footerText}
                             >
-                                Lorem ipsum dolar sit amet, lorem ipsum dola asit gret moritz.
+                            Step into the darkness with Grim Vision Studios
                             </Typography>
                         </Grid>
                         <Grid
