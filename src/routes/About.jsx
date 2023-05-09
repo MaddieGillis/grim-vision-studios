@@ -3,13 +3,26 @@ import { Container } from "@mui/system";
 import HeroBanner from "../components/HeroBanner";
 import ContactCard from "../components/ContactCard"
 import Footer from "../components/Footer";
-//import bryceImg from ".";
+import chicagoIcon from "../images/about-assets/chicagoIcon.jpg";
+import gillisIcon from "../images/about-assets/gillisIcon.jpg";
+import bakerIcon from "../images/about-assets/bakerIcon.jpg";
+import balthazarIcon from "../images/about-assets/balthazarIcon.jpg";
+import bundrickIcon from "../images/about-assets/bundrickIcon.jpg";
+import deRoseIcon from "../images/about-assets/deRoseIcon.png";
+import drevoIcon from "../images/about-assets/drevoIcon.jpg";
+import montgomeryIcon from "../images/about-assets/montgomeryIcon.png";
+import singhIcon from "../images/about-assets/singhIcon.png";
+import towleIcon from "../images/about-assets/towleIcon.jpg";
+import wagnerIcon from "../images/about-assets/wagnerIcon.png";
+import woodsIcon from "../images/about-assets/woodsIcon.jpg";
+
 
 const About = () => {
     const developers = [
         {
             //imagePath: bryceImg,
             name: 'Bryce Montgomery',
+            imagePath: montgomeryIcon,
             role: 'Chief Operating Officer',
             social1: 'https://twitter.com/BryceMontyGVS',
             // social2: 'https://www.instagram.com',
@@ -17,13 +30,15 @@ const About = () => {
         },
         {
             name: 'Andrew DeRose',
+            imagePath: deRoseIcon,
             role: 'Level Designer',
             social1: 'https://www.youtube.com/user/themadbank6 ',
             social2: 'https://www.linkedin.com/in/andrew-derose-930411169/ ',
-            desc: `What I do: I’m looking to become a full-on game designer… I love music, art, and editing. I got into editing videos a few years ago, and I plan to make funny content in videos and maybe in future games I design. I work as a Level Design, at Grim Vision Studios.`
+            desc: `What I do: I'm looking to become a full-on game designer… I love music, art, and editing. I got into editing videos a few years ago, and I plan to make funny content in videos and maybe in future games I design. I work as a Level Design, at Grim Vision Studios.`
         },
         {
             name: 'Chicago Cannon',
+            imagePath: chicagoIcon,
             role: '3D environment/Prop Artist',
             social1: 'https://www.linkedin.com/in/chicago-cannon-2bbba9243/',
             social2: 'https://www.instagram.com/darthmaum_/',
@@ -41,6 +56,7 @@ const About = () => {
         },
         {
             name: 'Haylee Wagner',
+            imagePath: wagnerIcon,
             role: 'Animation Team Lead/Assistant Manager of Grim Studios',
             social1: 'ArtStation: https://www.artstation.com/timelessstormanimation',
             social2: 'https://www.linkedin.com/in/haylee-wagner-0a776989/',
@@ -52,6 +68,7 @@ const About = () => {
         },
         {
             name: 'Michael Balthazar',
+            imagePath: balthazarIcon,
             role: 'Creative Writing Leader',
             social1: 'https://www.linkedin.com/in/michael-balthazar-a7707916b/',
             //social2: 'https://www.cheese.com',
@@ -59,21 +76,24 @@ const About = () => {
         },
         {
             name: 'Nick Towle',
+            imagePath: towleIcon,
             role: 'Character Modeling and Animation',
             social1: 'https://linktr.ee/artbynicktowle',
             //social2: '',
-            desc: `I've always been interested in art for as long as I remember, but it was mostly a hobby for me. Growing up, there wasn’t a lot of encouragement for careers in the arts. Well after getting a business degree and trying that line of work for a while, I decided it was time to make a change and started at Full Sail for computer animation. Currently my interests are in character modeling. In my free time I DM a virtual Star Wars 5th Edition DND game, of which I create all the art and assets myself and also enjoy spending my time at the gym or playing piano.  I also run a small 2d art commission business on the side. For this project I will be working on the character model as well as animations.`
+            desc: `I've always been interested in art for as long as I remember, but it was mostly a hobby for me. Growing up, there wasn't a lot of encouragement for careers in the arts. Well after getting a business degree and trying that line of work for a while, I decided it was time to make a change and started at Full Sail for computer animation. Currently my interests are in character modeling. In my free time I DM a virtual Star Wars 5th Edition DND game, of which I create all the art and assets myself and also enjoy spending my time at the gym or playing piano.  I also run a small 2d art commission business on the side. For this project I will be working on the character model as well as animations.`
         },
         {
             name: 'Oz Bundrick',
+            imagePath: bundrickIcon,
             role: 'Creative Writing',
             social1: 'https://www.google.com',
             social2: 'https://www.cheese.com',
-            desc: `My name is Oz Bundrick, online I'm known as Oracle_Arcana. I’m a writer, artist, streamer, etc. I have a BA in Political Science from the University of South Florida, and an MBA from Saint Leo University. Currently, I work for the Seminole Hard Rock Casino, but in my free time, I play video games, write, and work on the world-building for a future D&D game. I’m also working on a novel in my spare time.
+            desc: `My name is Oz Bundrick, online I'm known as Oracle_Arcana. I'm a writer, artist, streamer, etc. I have a BA in Political Science from the University of South Florida, and an MBA from Saint Leo University. Currently, I work for the Seminole Hard Rock Casino, but in my free time, I play video games, write, and work on the world-building for a future D&D game. I'm also working on a novel in my spare time.
             `
         },
         {
             name: 'Preston Woods',
+            imagePath: woodsIcon,
             role: 'Lead Systems Designer/Assistant Manager',
             social1: 'https://gamedesign625093001.wordpress.com/ ',
             social2: 'https://www.linkedin.com/in/preston-michael-woods/ ',
@@ -81,6 +101,7 @@ const About = () => {
         },
         {
             name: 'Sam Drevo',
+            imagePath: drevoIcon,
             role: 'Head of Managment/Level Designer',
             social1: 'https://twitter.com/samwiseth',
             social2: 'http://www.linkedin.com/in/sam-drevo-217a581b2',
@@ -88,6 +109,7 @@ const About = () => {
         },
         {
             name: 'Shawn Singh',
+            imagePath: singhIcon,
             role: 'Level Designer',
             social1: 'http://www.linkedin.com/in/shawn-singh-201412248',
             social2: 'https://fulltech20204.wixsite.com/website',
@@ -95,20 +117,22 @@ const About = () => {
         },
         {
             name: 'Shelbi Baker',
+            imagePath: bakerIcon,
             role: 'Music Producer',
             social1: 'https://twitter.com/Aura_Luna',
             //social2: '',
-            desc: `Hi! My name is Shelbi Baker, but I’m better known online as Aura Luna. I’m a music producer, composer, sound designer, audio engineer, and vocalist. I’ve been a student at Full Sail University studying music since November 2020 and plan to graduate December 2022. In my free time, I play competitive Heroes of the Storm as well as a ton of casual games. I also enjoy traveling all over the world and going to music festivals.
+            desc: `Hi! My name is Shelbi Baker, but I'm better known online as Aura Luna. I'm a music producer, composer, sound designer, audio engineer, and vocalist. I've been a student at Full Sail University studying music since November 2020 and plan to graduate December 2022. In my free time, I play competitive Heroes of the Storm as well as a ton of casual games. I also enjoy traveling all over the world and going to music festivals.
 
             My role on the development team is music producer. Happy to be on board. :)
             `
         },
         {
             name: 'Maddie Gillis',
+            imagePath: gillisIcon,
             role: 'Web Developer',
             social1:'https://github.com/maddiegillis',
             //social2:'',
-            desc: `Heyo I'm Maddie. I'm a student with EdX through Universty of Oregon, and am currently studying to become a fullstack developer. In my spare time I can be found gaming, playing dnd, spoiling my dog Banana, or chasing after my nephew`
+            desc: `Heyo I'm Maddie. I'm a recent graduate from EdX through Universty of Oregon and am a fullstack developer. In my spare time I can be found gaming, playing dnd, spoiling my dog Banana, or chasing after my nephews`
         }
 
 
