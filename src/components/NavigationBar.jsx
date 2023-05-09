@@ -125,7 +125,8 @@ const NavigationBar = () => {
         <>
             <AppBar
                 sx={{
-                    bgcolor: '#02182B',
+                    // bgcolor: '#02182B',
+                    bgcolor: '#000000',
                 }}
                 // position='static'
                 component='nav'
