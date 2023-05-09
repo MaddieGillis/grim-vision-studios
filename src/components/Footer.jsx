@@ -39,7 +39,8 @@ const Footer = () => {
             <Container
                 maxWidth='xxl'
                 sx={{
-                    bgcolor: '#02182B',
+                    // bgcolor: '#02182B',
+                    bgcolor: '#000000',
                     py: 10
                 }}
             >
@@ -66,7 +67,7 @@ const Footer = () => {
                                 variant="body1"
                                 style={textStyles.footerText}
                             >
-                            Step into the darkness with Grim Vision Studios
+                            Embrace Darkness
                             </Typography>
                         </Grid>
                         <Grid
@@ -173,7 +174,8 @@ const Footer = () => {
             <Container
                 maxWidth='xxl'
                 sx={{
-                    bgcolor: '#061F35',
+                    // bgcolor: '#061F35',
+                    bgcolor: '#131313',
                     py: 3
                 }}
             >
