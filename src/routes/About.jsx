@@ -156,12 +156,15 @@ const About = () => {
                     sx={{ py: 5 }}
                 >
                     <Typography variant="h3" sx={{ fontWeight: 'bold' }}>
-                        Method
+                        How we got here
                     </Typography>
                     <Typography variant="body1">
-                        The things that make our studio different.
+                        Paragrah blurb about how gvs got started ect
+                        Cauliflower cheese cauliflower cheese squirty cheese. Parmesan camembert de normandie caerphilly fromage frais squirty cheese red leicester red leicester cheesy feet. St. agur blue cheese lancashire paneer melted cheese goat cow pepper jack rubber cheese. Chalk and cheese stilton cheddar babybel.
+
+Manchego paneer stinking bishop. Smelly cheese cow gouda cheese on toast boursin cheese triangles cut the cheese pecorino. Port-salut who moved my cheese cottage cheese goat danish fontina monterey jack edam jarlsberg. Brie cow hard cheese paneer squirty cheese cheese and wine cheese on toast hard cheese. Croque monsieur.
                     </Typography>
-                    <Grid
+                    {/* <Grid
                         container
                         spacing={5}
                         sx={{ my: 1 }}
@@ -196,7 +199,7 @@ const About = () => {
                                 height={200}
                             />
                         </Grid>
-                    </Grid>
+                    </Grid> */}
                 </Container>
             </Container>
 
