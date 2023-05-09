@@ -13,14 +13,10 @@ const Games = () => {
       />
       <Container maxWidth="xl">
         <GameContainer
-          title="Game Name"
-          desc="Lorem Ipsum dolar sit amet, lorem dolar sit amet ipsum dolar maset
-          siotpum atep cartof. Amet ipsum dolar maset siotpum atep cartof. Lorem
-          Ipsum dolar sit amet, lorem dolar sit amet ipsum dolar maset siotpum
-          atep cartof. Amet ipsum dolar maset siotpum atep cartof. Lorem Ipsum
-          dolar sit amet, lorem dolar sit amet ipsum dolar maset siotpum atep
-          cartof. Amet ipsum dolar maset siotpum atep cartof."
-          playtestingLink="/playtesting"
+          title="Untitled horror Project"
+          desc="Are you ready to brave the dark depths of 1700's Siberia? Our upcoming horror game will take you on a spine-chilling adventure through a frozen landscape filled with secrets and terror. Check out our early build video. Join us on our Discord channel for access to early information and updates on the game's development. Don't miss your chance to experience the bone-chilling horror of this exciting new game!"
+          // playtestingLink="/playtesting"
+          url="https://discord.gg/8VTRKtj3dN"
         />
       </Container>
     </>
