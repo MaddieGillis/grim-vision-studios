@@ -5,6 +5,7 @@ import {
   Computer,
   PeopleAltRounded,
   WaterfallChartRounded,
+  Savings,
 } from "@mui/icons-material";
 import {
   Grid,
@@ -124,9 +125,9 @@ const Home = () => {
             <Grid item xs={12} md={3}>
               <IconCard
                 icon={<WaterfallChartRounded color="error" />}
-                text="Learn what sets us apart from other Development Studios."
-                heading="Our Method"
-                url="/about"
+                text="Take a peak at what projects we're currently working on."
+                heading="Our Games"
+                url="/games"
               />
             </Grid>
             <Grid item xs={12} md={3}>
@@ -139,10 +140,10 @@ const Home = () => {
             </Grid>
             <Grid item xs={12} md={3}>
               <IconCard
-                icon={<BugReportRounded color="error" />}
-                text="Sign up for pre-release testing (comming soon)!"
-                heading="Play Testing"
-                url="/playtesting"
+                icon={<Savings color="error" />}
+                text="To help support our small studio check out the support page!"
+                heading="Support"
+                url="/support"
               />
             </Grid>
           </Grid>
