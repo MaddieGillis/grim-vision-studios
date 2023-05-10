@@ -4,7 +4,7 @@ import HeroBanner from "../components/HeroBanner";
 import ContactCard from "../components/ContactCard"
 import Footer from "../components/Footer";
 import chicagoIcon from "../images/about-assets/chicagoIcon.jpg";
-import gillisIcon from "../images/about-assets/gillisIcon.jpg";
+import bananaIcon from "../images/about-assets/gillisIcon.jpg";
 import bakerIcon from "../images/about-assets/bakerIcon.jpg";
 import balthazarIcon from "../images/about-assets/balthazarIcon.jpg";
 import bundrickIcon from "../images/about-assets/bundrickIcon.jpg";
@@ -49,7 +49,7 @@ const About = () => {
             they're all great! Nothing can beat good ol' Tetris or Pokémon, though. I'm a
             huge foodie; I make it a habit to try a new restaurant when I can afford to. So
             far, my favorite one is Screamers-- a cabaret in Lincoln, or The Monster Club in
-            Omaha! I&#39;m currently attending Full Sail University to obtain a Bachelor&#39;s in
+            Omaha! I'm currently attending Full Sail University to obtain a Bachelor's in
             Game Art, and I'm super excited to say that I'm a 3D environment/prop artist
             
             here at Grim Vision Studios!`
@@ -128,7 +128,7 @@ const About = () => {
         },
         {
             name: 'Maddie Gillis',
-            imagePath: gillisIcon,
+            imagePath: bananaIcon,
             role: 'Web Developer',
             social1:'https://github.com/maddiegillis',
             //social2:'',

@@ -1,13 +1,16 @@
 import React from "react";
-import { Button, Grid, Skeleton, Typography } from "@mui/material";
+import { Button, Grid, Skeleton, Typography, CardActions } from "@mui/material";
 import { ArrowRightAltRounded } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import VideoCard from "./VideoCard";
 
-const GameContainer = ({ title, desc, playtestingLink }) => {
+
+const GameContainer = ({ title, desc, url}) => {
   return (
     <Grid container gap={10}>
-      <Grid item xl={4}>
-        <Skeleton width={"100%"} height={500} />
+      <Grid item xl={4} sx={{ display: { xs: "none", lg: "block" } }} md={5}>
+        {/* <Skeleton width={"100%"} height={500} /> */}
+        <VideoCard width={"100%"} height={500}/>
       </Grid>
       <Grid
         item
@@ -25,18 +28,29 @@ const GameContainer = ({ title, desc, playtestingLink }) => {
         <Typography variant="body1" sx={{ my: 2 }}>
           {desc}
         </Typography>
-        <Button
+        <CardActions>
+          <Button
+             variant="contained"
+             color="error"
+             endIcon={<ArrowRightAltRounded />}
+            onClick={() => window.open(url, "_blank")}
+          >
+            Discord
+          </Button>
+        </CardActions>
+
+        {/* <Button
           variant="contained"
           color="error"
           endIcon={<ArrowRightAltRounded />}
         >
           <Link
-            to={playtestingLink}
+            to={discordLink}
             style={{ color: "#fff", textDecoration: "none" }}
           >
-            Playtesting
+            Discord
           </Link>
-        </Button>
+        </Button> */}
       </Grid>
     </Grid>
   );
