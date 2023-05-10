@@ -4,7 +4,7 @@ import HeroBanner from "../components/HeroBanner";
 import ContactCard from "../components/ContactCard"
 import Footer from "../components/Footer";
 import chicagoIcon from "../images/about-assets/chicagoIcon.jpg";
-import gillisIcon from "../images/about-assets/gillisIcon.jpg";
+import bananaIcon from "../images/about-assets/gillisIcon.jpg";
 import bakerIcon from "../images/about-assets/bakerIcon.jpg";
 import balthazarIcon from "../images/about-assets/balthazarIcon.jpg";
 import bundrickIcon from "../images/about-assets/bundrickIcon.jpg";
@@ -128,7 +128,7 @@ const About = () => {
         },
         {
             name: 'Maddie Gillis',
-            imagePath: gillisIcon,
+            imagePath: bananaIcon,
             role: 'Web Developer',
             social1:'https://github.com/maddiegillis',
             //social2:'',
