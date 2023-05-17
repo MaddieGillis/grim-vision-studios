@@ -159,10 +159,7 @@ const About = () => {
                         How we got here
                     </Typography>
                     <Typography variant="body1">
-                        Paragrah blurb about how gvs got started ect
-                        Cauliflower cheese cauliflower cheese squirty cheese. Parmesan camembert de normandie caerphilly fromage frais squirty cheese red leicester red leicester cheesy feet. St. agur blue cheese lancashire paneer melted cheese goat cow pepper jack rubber cheese. Chalk and cheese stilton cheddar babybel.
-
-Manchego paneer stinking bishop. Smelly cheese cow gouda cheese on toast boursin cheese triangles cut the cheese pecorino. Port-salut who moved my cheese cottage cheese goat danish fontina monterey jack edam jarlsberg. Brie cow hard cheese paneer squirty cheese cheese and wine cheese on toast hard cheese. Croque monsieur.
+                    Grim Vision Studios was founded by Jonathan Wright, and Bryce Montgomery around August 17th, of 2021. With a message sent inside of a College Degree Discord, Jonathan sent out a message indicating the start of a game, and a possible studio. Bryce found this as an oppurunity to change the AAA giants, and make the next big studio, aswell as help out college-level students, by giving them something to put on their portfolio and resumes! Bryce began reaching out to Full Sail students to find out who was interested in making a game, and between that and people bringing on others they knew that they thought would be a good fit to help with development, we got to where we are today.
                     </Typography>
                     {/* <Grid
                         container
