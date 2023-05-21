@@ -86,6 +86,17 @@ const About = () => {
             desc: `Hello there, my name is Michael Balthazar. I am the Creative Writing leader and I have a deep respect and love for horror. I joined Full Sail so that I can become a Game Designer and design wonderful horror games. Writing comes naturally for me, this allows me to give 110% to whatever story I am in.`
         },
         {
+            name: 'Mikus',
+            imagePath: mikusIcon,
+            role: 'Concept Artist',
+            social1: '',
+            social2: '',
+            desc: `My name is mikus, Im a professional NFT artist and worked on Entreprenerdz collection by GigaDAO. Im eager to learn and contribute my best!
+            Telegram ID: @mikus7696
+            Email: maksatxai@gmail.com`
+        },
+
+        {
             name: 'Nick Towle',
             imagePath: towleIcon,
             role: 'Character Modeling and Animation',
