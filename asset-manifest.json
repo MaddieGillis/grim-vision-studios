@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.js": "./static/js/main.060b68ab.js",
+    "main.js": "./static/js/main.b3cb1110.js",
+    "static/media/mikusIcon.png": "./static/media/mikusIcon.bb7fcfb329dd9729d21e.png",
     "static/media/woodsIcon.jpg": "./static/media/woodsIcon.db7280c43d1162f8c125.jpg",
+    "static/media/riveraIcon.png": "./static/media/riveraIcon.b01573ff47d2eba0324a.png",
     "static/media/gillisIcon.jpg": "./static/media/gillisIcon.9b064d95fcfb6c687ffe.jpg",
     "static/media/singhIcon.png": "./static/media/singhIcon.18a842c53cd85fa88da9.png",
     "static/media/wagnerIcon.png": "./static/media/wagnerIcon.63e3bf2700b09d40531e.png",
-    "static/media/deRoseIcon.png": "./static/media/deRoseIcon.0597b16ed8528533b7dc.png",
     "static/media/montgomeryIcon.png": "./static/media/montgomeryIcon.78a9a9b2381fba009571.png",
+    "static/media/deRoseIcon.png": "./static/media/deRoseIcon.5e019a81989ceac2b5cb.png",
     "static/media/chicagoIcon.jpg": "./static/media/chicagoIcon.c826e30ff6b1b9e23691.jpg",
     "static/media/drevoIcon.jpg": "./static/media/drevoIcon.b3e5beecaf065620ed27.jpg",
     "static/media/bakerIcon.jpg": "./static/media/bakerIcon.bddf581a38c76333d2fc.jpg",
@@ -14,9 +16,9 @@
     "static/media/bundrickIcon.jpg": "./static/media/bundrickIcon.a332f975b489fc7db784.jpg",
     "static/media/balthazarIcon.jpg": "./static/media/balthazarIcon.7e71bba8400bcb73930c.jpg",
     "index.html": "./index.html",
-    "main.060b68ab.js.map": "./static/js/main.060b68ab.js.map"
+    "main.b3cb1110.js.map": "./static/js/main.b3cb1110.js.map"
   },
   "entrypoints": [
-    "static/js/main.060b68ab.js"
+    "static/js/main.b3cb1110.js"
   ]
 }
