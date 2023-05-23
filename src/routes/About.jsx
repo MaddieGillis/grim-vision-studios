@@ -15,6 +15,8 @@ import singhIcon from "../images/about-assets/singhIcon.png";
 import towleIcon from "../images/about-assets/towleIcon.jpg";
 import wagnerIcon from "../images/about-assets/wagnerIcon.png";
 import woodsIcon from "../images/about-assets/woodsIcon.jpg";
+import mikusIcon from "../images/about-assets/mikusIcon.png";
+import riveraIcon from "../images/about-assets/riveraIcon.png"
 
 
 const About = () => {
@@ -37,22 +39,21 @@ const About = () => {
             desc: `What I do: I'm looking to become a full-on game designer… I love music, art, and editing. I got into editing videos a few years ago, and I plan to make funny content in videos and maybe in future games I design. I work as a Level Design, at Grim Vision Studios.`
         },
         {
+            name: 'Carmen Rivera',
+            imagePath: riveraIcon,
+            role: 'Concept Artist',
+            social1: 'https://www.youtube.com/user/themadbank6 ',
+            social2: 'https://www.linkedin.com/in/andrew-derose-930411169/ ',
+            desc: `My name is Carmen Rivera. I am a young artist creating concept art for my team in GVS. I am thankful to be working alongside creative people, similar to me. My contacts are through email, which is g.rivera76@yahoo.com and xanderkobayashi656@gmail.com`
+        },
+
+        {
             name: 'Chicago Cannon',
             imagePath: chicagoIcon,
             role: '3D environment/Prop Artist',
             social1: 'https://www.linkedin.com/in/chicago-cannon-2bbba9243/',
             social2: 'https://www.instagram.com/darthmaum_/',
-            desc: `My name is Chicago, but I'm fine with Chi (shy). I have two kids, soon to be
-            three. I live on a farm in the Midwest with the cows and the corn, and I love all
-            things video games! My favorite video game is Bloodborne, but I also love The
-            Evil Within (both) and Call of Duty: Warzone. I won't indulge in the console war;
-            they're all great! Nothing can beat good ol' Tetris or Pokémon, though. I'm a
-            huge foodie; I make it a habit to try a new restaurant when I can afford to. So
-            far, my favorite one is Screamers-- a cabaret in Lincoln, or The Monster Club in
-            Omaha! I'm currently attending Full Sail University to obtain a Bachelor's in
-            Game Art, and I'm super excited to say that I'm a 3D environment/prop artist
-            
-            here at Grim Vision Studios!`
+            desc: `I'm Chicago, the 3D environment/prop artist behind the captivating worlds of Grim Vision Studios! With an eye for detail and a passion for bringing ideas to life, I am an integral part of the team. Join me and the rest of the team as we create the next generation of games that will leave you breathless.`
         },
         {
             name: 'Haylee Wagner',
@@ -74,6 +75,17 @@ const About = () => {
             //social2: 'https://www.cheese.com',
             desc: `Hello there, my name is Michael Balthazar. I am the Creative Writing leader and I have a deep respect and love for horror. I joined Full Sail so that I can become a Game Designer and design wonderful horror games. Writing comes naturally for me, this allows me to give 110% to whatever story I am in.`
         },
+        {
+            name: 'Maksat Khairzhan',
+            imagePath: mikusIcon,
+            role: 'Concept Artist',
+            social1: '',
+            social2: '',
+            desc: `My name is mikus, Im a professional NFT artist and worked on Entreprenerdz collection by GigaDAO. Im eager to learn and contribute my best!
+            Telegram ID: @mikus7696
+            Email: maksatxai@gmail.com`
+        },
+
         {
             name: 'Nick Towle',
             imagePath: towleIcon,
