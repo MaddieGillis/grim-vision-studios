@@ -53,17 +53,7 @@ const About = () => {
             role: '3D environment/Prop Artist',
             social1: 'https://www.linkedin.com/in/chicago-cannon-2bbba9243/',
             social2: 'https://www.instagram.com/darthmaum_/',
-            desc: `My name is Chicago, but I'm fine with Chi (shy). I have two kids, soon to be
-            three. I live on a farm in the Midwest with the cows and the corn, and I love all
-            things video games! My favorite video game is Bloodborne, but I also love The
-            Evil Within (both) and Call of Duty: Warzone. I won't indulge in the console war;
-            they're all great! Nothing can beat good ol' Tetris or Pokémon, though. I'm a
-            huge foodie; I make it a habit to try a new restaurant when I can afford to. So
-            far, my favorite one is Screamers-- a cabaret in Lincoln, or The Monster Club in
-            Omaha! I'm currently attending Full Sail University to obtain a Bachelor's in
-            Game Art, and I'm super excited to say that I'm a 3D environment/prop artist
-            
-            here at Grim Vision Studios!`
+            desc: `I'm Chicago, the 3D environment/prop artist behind the captivating worlds of Grim Vision Studios! With an eye for detail and a passion for bringing ideas to life, I am an integral part of the team. Join me and the rest of the team as we create the next generation of games that will leave you breathless.`
         },
         {
             name: 'Haylee Wagner',
@@ -86,7 +76,7 @@ const About = () => {
             desc: `Hello there, my name is Michael Balthazar. I am the Creative Writing leader and I have a deep respect and love for horror. I joined Full Sail so that I can become a Game Designer and design wonderful horror games. Writing comes naturally for me, this allows me to give 110% to whatever story I am in.`
         },
         {
-            name: 'Mikus',
+            name: 'Maksat Khairzhan',
             imagePath: mikusIcon,
             role: 'Concept Artist',
             social1: '',
