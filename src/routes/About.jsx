@@ -171,7 +171,7 @@ const About = () => {
                         How we got here
                     </Typography>
                     <Typography variant="body1">
-                    Grim Vision Studios was founded by Jonathan Wright, and Bryce Montgomery around August 17th, of 2021. With a message sent inside of a College Degree Discord, Jonathan sent out a message indicating the start of a game, and a possible studio. Bryce found this as an oppurunity to change the AAA giants, and make the next big studio, aswell as help out college-level students, by giving them something to put on their portfolio and resumes! Bryce began reaching out to Full Sail students to find out who was interested in making a game, and between that and people bringing on others they knew that they thought would be a good fit to help with development, we got to where we are today.
+                    Grim Vision Studios was founded by Jonathan Wright, and Bryce Montgomery around August 17th, of 2021. With a message sent inside of a College Degree Discord, Jonathan sent out a message indicating the start of a game, and a possible studio. Bryce found this as an opportunity to make amazing games, while giving students and recent graduates the chance to break into the industry! Bryce began reaching out to Full Sail students to find out who was interested in making a game, and between that and people bringing on others they knew that they thought would be a good fit to help with development, we got to where we are today.
                     </Typography>
                     {/* <Grid
                         container
