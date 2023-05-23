@@ -34,6 +34,7 @@ import About from '../routes/About';
 import Community from '../routes/Community';
 import Games from '../routes/Games';
 import Support from "../routes/Support";
+import Privacy from "../routes/Privacy";
 
 const NavigationBar = () => {
 
@@ -249,6 +250,7 @@ const NavigationBar = () => {
                 <Route path='/games' element={<Games />} />
                 <Route path='/community' element={<Community />} />
                 <Route path='/support' element={<Support />} />
+                <Route path='/privacy' element={<Privacy />} />
             </Routes>
         </>
     );
