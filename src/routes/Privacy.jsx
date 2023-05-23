@@ -71,35 +71,70 @@ const Privacy = () => {
           </Typography>
           <Typography variant="body1" sx={{ mt: 1 }}>
 
-Privacy Policy
 
+<Typography variant="body1" sx={{ mt: 1 }}>
 This Privacy Policy outlines how we handle and protect your personal information when you visit our website. We are committed to maintaining the privacy and security of your data.
 
-Information Collection and Use
+</Typography>
 
+<Typography variant="body1" sx={{ mt: 1 }}>
+
+Information Collection and Use
+</Typography>
+<Typography variant="body1" sx={{ mt: 1 }}>
 We do not collect or store any personally identifiable information (PII) when you visit our website. We do not use cookies, web beacons, or any other tracking technologies to gather information about our visitors.
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 Third-Party Links
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 Our website may contain links to third-party websites for your convenience or reference. We have no control over the content or privacy practices of those sites and, therefore, are not responsible for the protection and privacy of any information you provide while visiting those websites. We recommend reviewing the privacy policies of any third-party websites you visit.
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 Data Security
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 As we do not collect or store any personal data, we have implemented appropriate security measures to prevent unauthorized access, disclosure, alteration, or destruction of any information.
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 Children's Privacy
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 Our website is not directed towards children under the age of 13, and we do not knowingly collect any personal information from children. If you believe that we may have inadvertently collected information from a child under the age of 13, please contact us, and we will promptly remove the information from our records.
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 Changes to this Privacy Policy
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 We reserve the right to modify or update this Privacy Policy from time to time. Any changes will be effective immediately upon posting the updated policy on this page. We encourage you to review this page periodically to stay informed about our privacy practices.
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 Contact Us
 
+</Typography>
+
+<Typography variant="body1" sx={{ mt: 1 }}>
 If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at grimvisionstudios@gmail.com.
 
-<Typography variant="body1" sx={{ mt: 1 }}>--Grim Vision Studio Team ❤️</Typography>
+</Typography>
               
             </Typography>
         </Container>
