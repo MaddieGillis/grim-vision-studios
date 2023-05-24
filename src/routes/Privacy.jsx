@@ -77,7 +77,10 @@ This Privacy Policy outlines how we handle and protect your personal information
 
 </Typography>
 
-<Typography variant="body1" sx={{ mt: 1 }}>
+<Typography variant="h6"
+            component="h2"
+            fontWeight="bold" 
+            sx={{ mt: 1 }}>
 
 Information Collection and Use
 </Typography>
@@ -86,7 +89,10 @@ We do not collect or store any personally identifiable information (PII) when yo
 
 </Typography>
 
-<Typography variant="body1" sx={{ mt: 1 }}>
+<Typography variant="h6"
+            component="h2"
+            fontWeight="bold"
+             sx={{ mt: 1 }}>
 Third-Party Links
 
 </Typography>
@@ -96,7 +102,10 @@ Our website may contain links to third-party websites for your convenience or re
 
 </Typography>
 
-<Typography variant="body1" sx={{ mt: 1 }}>
+<Typography variant="h6"
+            component="h2"
+            fontWeight="bold"
+             sx={{ mt: 1 }}>
 Data Security
 
 </Typography>
@@ -106,7 +115,10 @@ As we do not collect or store any personal data, we have implemented appropriate
 
 </Typography>
 
-<Typography variant="body1" sx={{ mt: 1 }}>
+<Typography variant="h6"
+            component="h2"
+            fontWeight="bold"
+             sx={{ mt: 1 }}>
 Children's Privacy
 
 </Typography>
@@ -116,7 +128,10 @@ Our website is not directed towards children under the age of 13, and we do not 
 
 </Typography>
 
-<Typography variant="body1" sx={{ mt: 1 }}>
+<Typography variant="h6"
+            component="h2"
+            fontWeight="bold"
+             sx={{ mt: 1 }}>
 Changes to this Privacy Policy
 
 </Typography>
@@ -126,13 +141,16 @@ We reserve the right to modify or update this Privacy Policy from time to time. 
 
 </Typography>
 
-<Typography variant="body1" sx={{ mt: 1 }}>
+<Typography variant="h6"
+            component="h2"
+            fontWeight="bold"
+             sx={{ mt: 1 }}>
 Contact Us
 
 </Typography>
 
 <Typography variant="body1" sx={{ mt: 1 }}>
-If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at grimvisionstudios@gmail.com.
+If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at officialgrimvision@gmail.com.
 
 </Typography>
               
