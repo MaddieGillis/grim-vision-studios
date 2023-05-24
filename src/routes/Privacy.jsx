@@ -150,9 +150,10 @@ Contact Us
 </Typography>
 
 <Typography variant="body1" sx={{ mt: 1 }}>
-If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at officialgrimvision@gmail.com.
-
+If you have any questions or concerns about this Privacy Policy or our privacy practices, please{' '}
+<a href="mailto:officialgrimvision@gmail.com"> contact us</a>.
 </Typography>
+
               
             </Typography>
         </Container>
