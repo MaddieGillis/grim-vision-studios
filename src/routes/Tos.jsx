@@ -1,40 +1,13 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import {
     Container,
     Typography
-    
 } from "@mui/material"
 
 
 
 const Tos = () => {
-    const gradientText = {
-        root: {
-          background: "-webkit-linear-gradient(45deg, #d32f2f 30%, #9f1a1a 90%)",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-        },
-      };
-    
-      const textStyles = {
-        link: {
-          color: "#fff",
-          textDecoration: "none",
-        },
-        redLink: {
-          color: "#d32f2f",
-          textDecoration: "none",
-        },
-        footerHeading: {
-          color: "#fff",
-          fontWeight: "bold",
-          marginBottom: 10,
-        },
-        footerText: {
-          color: "#f7f7f7",
-        },
-      };
+
     return (
         <>
             {/* <HeroBanner
