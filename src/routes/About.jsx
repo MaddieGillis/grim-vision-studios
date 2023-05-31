@@ -107,8 +107,8 @@ const About = () => {
             name: 'Oz Bundrick',
             imagePath: bundrickIcon,
             role: 'Creative Writing',
-            social1: 'https://www.google.com',
-            //social2: 'https://www.cheese.com',
+            social1: 'https://twitch.tv/oracle_arcana',
+            social2: 'https://archiveofourown.org/users/Oracle_Arcana/pseuds/Oracle_Arcana',
             desc: `My name is Oz Bundrick, online I'm known as Oracle_Arcana. I'm a writer, artist, streamer, etc. I have a BA in Political Science from the University of South Florida, and an MBA from Saint Leo University. Currently, I work for the Seminole Hard Rock Casino, but in my free time, I play video games, write, and work on the world-building for a future D&D game. I'm also working on a novel in my spare time.
             `
         },
