@@ -16,7 +16,8 @@ import towleIcon from "../images/about-assets/towleIcon.jpg";
 import wagnerIcon from "../images/about-assets/wagnerIcon.png";
 import woodsIcon from "../images/about-assets/woodsIcon.jpg";
 import mikusIcon from "../images/about-assets/mikusIcon.png";
-import riveraIcon from "../images/about-assets/riveraIcon.png"
+import riveraIcon from "../images/about-assets/riveraIcon.png";
+import houseIcon from "../images/about-assets/houseIcon.png";
 
 
 const About = () => {
@@ -66,6 +67,14 @@ const About = () => {
             games, stream to twitch, and do various crafts. I have a BA in Psychology and worked in
             that field for a while before eventually going back to school to get a degree in animation.
             I'm the animation team lead as well as an assistant manager with Grim Vision Studios.`
+        },
+        {
+            name: 'Jory House',
+            imagePath: houseIcon,
+            role: 'Combat/Enemy Design',
+            social1:'https://jshouse1.wixsite.com/joryhouse',
+            //social2:'',
+            desc: `My name is Jory House, and I am a recent graduate at Full Sail University who specializes in Combat and Enemy Design. From making an attack feel powerful, to creating enemies that serve a specific purpose for how the player experiences a game, my goal is to design an engaging combat experience for the player.`
         },
         {
             name: 'Michael Balthazar',
