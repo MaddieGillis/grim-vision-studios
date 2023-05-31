@@ -58,7 +58,7 @@ const Tos = () => {
 
 
 <Typography variant="body1" sx={{ mt: 1 }}>
-This Terms of Service Agreement (the "Agreement") is entered into by and between [Your Video Game Studio] ("Company") and the user ("User" or "you") of the website www.grimvisionstudios.com and/or grimvisionstudios.netlify.app (the "Website").
+This Terms of Service Agreement (the "Agreement") is entered into by and between Grim Vision Studios ("Company") and the user ("User" or "you") of the website www.grimvisionstudios.com and/or grimvisionstudios.netlify.app (the "Website").
 
 </Typography>
 
