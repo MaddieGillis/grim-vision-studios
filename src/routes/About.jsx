@@ -60,7 +60,7 @@ const About = () => {
             name: 'Haylee Wagner',
             imagePath: wagnerIcon,
             role: 'Animation Team Lead/Assistant Manager of Grim Studios',
-            social1: 'ArtStation: https://www.artstation.com/timelessstormanimation',
+            social1: 'https://www.artstation.com/timelessstormanimation',
             social2: 'https://www.linkedin.com/in/haylee-wagner-0a776989/',
             desc: `I've always had an interest in creating animations. It started with The Sims 2 when I was
             obsessed with music videos people made using the game. In my free time I play video
@@ -108,7 +108,7 @@ const About = () => {
             imagePath: bundrickIcon,
             role: 'Creative Writing',
             social1: 'https://www.google.com',
-            social2: 'https://www.cheese.com',
+            //social2: 'https://www.cheese.com',
             desc: `My name is Oz Bundrick, online I'm known as Oracle_Arcana. I'm a writer, artist, streamer, etc. I have a BA in Political Science from the University of South Florida, and an MBA from Saint Leo University. Currently, I work for the Seminole Hard Rock Casino, but in my free time, I play video games, write, and work on the world-building for a future D&D game. I'm also working on a novel in my spare time.
             `
         },

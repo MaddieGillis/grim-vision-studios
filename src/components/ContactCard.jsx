@@ -1,7 +1,7 @@
 import { Avatar } from "@mui/material";
 import React from "react";
-
-import { GitHub, Instagram, Twitter } from "@mui/icons-material";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { GitHub, Instagram, Twitter, YouTube, People, Park} from "@mui/icons-material";
 import { Paper, Typography, Box, Stack, IconButton, Skeleton, Divider } from "@mui/material";
 
 const ContactCard = ({
@@ -20,6 +20,14 @@ const ContactCard = ({
             return <Twitter />
         else if (link.includes('git'))
             return <GitHub />
+        else if (link.includes('linkedin'))
+            return <LinkedInIcon />
+        else if (link.includes('youtube'))
+            return <YouTube />
+        else if (link.includes('linktr'))
+            return <Park />
+        else
+            return <People />
     }
 
     return (
