@@ -18,6 +18,7 @@ import woodsIcon from "../images/about-assets/woodsIcon.jpg";
 import mikusIcon from "../images/about-assets/mikusIcon.png";
 import riveraIcon from "../images/about-assets/riveraIcon.png";
 import houseIcon from "../images/about-assets/houseIcon.png";
+import brownellIcon from "../images/about-assets/brownellIcon.png";
 
 
 const About = () => {
@@ -146,6 +147,15 @@ const About = () => {
 
             My role on the development team is music producer. Happy to be on board. :)
             `
+        },
+        {
+            name: 'Tracy Brownell',
+            imagePath: brownellIcon,
+            role: 'Art Lead/Character & Creature 3D Artist',
+            social1: 'https://www.linkedin.com/in/tracy-brownell-398197b6/',
+            social2: 'https://twitter.com/Atheeurr',
+            desc: `My name is Tracy and I am Art Lead/ Character/Creature 3D Artist at Grim Vision Studios. Beyond my title at  Grim Vision Studios, I also bring other skills to help aid in this venture through my many years of 2d art, studio pipeline experience, online marketing (Grim as suggestion base only), and environment/prop 3d art skills.
+            I thoroughly enjoy the process of creating stunning games through team collaboration with each of the departments at Grim Vision Studios. Whether we are creating art to follow the story, programming, or design.. We strive to make a world that will captivate, entice your curiosity or bewilderment, and embrace the grim of story, art, gameplay, and combat. Without further due, I would like to welcome you, to the Grim World Experience. Where you travel through timeless lands, fight your way through fantastic beasties, and unravel a story that will keep you on the edge of your seat`
         },
         {
             name: 'Maddie Gillis',
