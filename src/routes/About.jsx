@@ -16,7 +16,6 @@ import towleIcon from "../images/about-assets/towleIcon.jpg";
 import wagnerIcon from "../images/about-assets/wagnerIcon.png";
 import woodsIcon from "../images/about-assets/woodsIcon.jpg";
 import mikusIcon from "../images/about-assets/mikusIcon.png";
-import riveraIcon from "../images/about-assets/riveraIcon.png";
 import houseIcon from "../images/about-assets/houseIcon.png";
 import brownellIcon from "../images/about-assets/brownellIcon.png";
 
@@ -39,14 +38,6 @@ const About = () => {
             social1: 'https://www.youtube.com/user/themadbank6 ',
             social2: 'https://www.linkedin.com/in/andrew-derose-930411169/ ',
             desc: `What I do: I'm looking to become a full-on game designer… I love music, art, and editing. I got into editing videos a few years ago, and I plan to make funny content in videos and maybe in future games I design. I work as a Level Design, at Grim Vision Studios.`
-        },
-        {
-            name: 'Carmen Rivera',
-            imagePath: riveraIcon,
-            role: 'Concept Artist',
-            social1: 'https://www.youtube.com/user/themadbank6 ',
-            social2: 'https://www.linkedin.com/in/andrew-derose-930411169/ ',
-            desc: `My name is Carmen Rivera. I am a young artist creating concept art for my team in GVS. I am thankful to be working alongside creative people, similar to me. My contacts are through email, which is g.rivera76@yahoo.com and xanderkobayashi656@gmail.com`
         },
 
         {
